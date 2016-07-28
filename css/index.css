@@ -1,0 +1,187 @@
+html,
+body {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+img {
+  width: 100%;
+  display: block;
+}
+header {
+  position: relative;
+}
+section {
+  padding-bottom: 8px;
+}
+.user-info {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 23.29%;
+}
+.user-info a {
+  display: block;
+  width: 68px;
+  margin: 0 auto;
+}
+.user-info a img {
+  width: 68px;
+  height: 68px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 34px;
+}
+.user-info .user-name {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: white;
+}
+.user-info .user-level {
+  width: 58px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 9px;
+  color: white;
+  font-size: 10px;
+}
+.info-box,
+.more-box {
+  padding-left: 16px;
+  background-color: #fff;
+}
+.info-box li,
+.more-box li {
+  border-bottom: 1px solid #e9e9e9;
+}
+.info-box li a,
+.more-box li a {
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 36px;
+  font-size: 14px;
+  color: #1a1a1a;
+  position: relative;
+  background: url("../img/icon.png") 0 0 no-repeat;
+  background-size: 40px 400px;
+}
+.info-box li a:after,
+.more-box li a:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
+  transform: rotate(45deg);
+  line-height: 38px;
+}
+.info-box .info a {
+  background-position: 0 -78px;
+}
+.info-box .order a {
+  background-position: 0 -118px;
+}
+.info-box .collect a {
+  background-position: 0 -157px;
+}
+.info-box .wallet a {
+  background-position: 0 -196px;
+}
+.info-box .addr a {
+  background-position: 0 -236px;
+}
+.info-box .member a {
+  background-position: 0 -273px;
+}
+.more-box {
+  margin-top: 8px;
+}
+.more-box .more a {
+  background-position: 0 -320px;
+}
+.more-box .logout a {
+  background-position: 0 -360px;
+}
+footer {
+  padding-top: 2px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #e9e9e9;
+  left: 0;
+  bottom: 0;
+}
+footer .menu li {
+  float: left;
+  width: 20%;
+}
+footer .menu li a {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  color: #b6b6b6;
+}
+footer .menu li a:before {
+  margin: 0 auto;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 22px;
+  background: url("../img/icon2.png") no-repeat;
+  background-size: 285px 50px;
+}
+footer .menu li:nth-child(1) a:before {
+  background-position: -4px -3px;
+}
+footer .menu li:nth-child(2) a:before {
+  background-position: -68px -3px;
+}
+footer .menu li:nth-child(3) a:before {
+  background-position: -132px -3px;
+}
+footer .menu li:nth-child(4) a:before {
+  background-position: -196px -3px;
+}
+footer .menu li:nth-child(5) a:before {
+  background-position: -260px -3px;
+}
+footer .menu li:nth-child(1).active a {
+  color: #f2951b;
+}
+footer .menu li:nth-child(1).active a:before {
+  background-position: -4px -32px;
+}
+footer .menu li:nth-child(2).active a {
+  color: #f2951b;
+}
+footer .menu li:nth-child(2).active a:before {
+  background-position: -68px -32px;
+}
+footer .menu li:nth-child(3).active a {
+  color: #f2951b;
+}
+footer .menu li:nth-child(3).active a:before {
+  background-position: -132px -32px;
+}
+footer .menu li:nth-child(4).active a {
+  color: #f2951b;
+}
+footer .menu li:nth-child(4).active a:before {
+  background-position: -196px -32px;
+}
+footer .menu li:nth-child(5).active a {
+  color: #f2951b;
+}
+footer .menu li:nth-child(5).active a:before {
+  background-position: -260px -32px;
+}
